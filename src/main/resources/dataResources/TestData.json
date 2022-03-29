@@ -1,0 +1,178 @@
+[
+  {
+    "testId": "TC-001",
+    "userName": "Testusername",
+    "password": "Test_Pas_Love$",
+    "loginAssert": "Hello Testusername (not Testusername? Sign out)",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  },
+  {
+    "testId": "TC-002",
+    "userName": "NoUser",
+    "password": "NoPass",
+    "loginAssert": "ERROR: Invalid username. Lost your password?",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  },
+  {
+    "testId": "TC-003",
+    "userName": "Testusername",
+    "password": "",
+    "loginAssert": "Error: Password is required111.",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  },
+  {
+    "testId": "TC-004",
+    "userName": "",
+    "password": "Test_Pas_Love$",
+    "loginAssert": "Error: Username is required.",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  },
+  {
+    "testId": "TC-005",
+    "userName": "",
+    "password": "",
+    "loginAssert": "Error: Username is required.",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  },
+  {
+    "testId": "TC-006",
+    "userName": "testUserName",
+    "password": "tEsT_pAS_LoVe$",
+    "loginAssert": "ERROR: The password you entered for the username testUserName is incorrect. Lost your password?",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  },
+  {
+    "testId": "TC-007",
+    "userName": "testUserName",
+    "password": "tEsT_pAS_LoVe$",
+    "loginAssert": "password",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  },
+  {
+    "testId": "TC-008",
+    "userName": "Testusername",
+    "password": "Test_Pas_Love$",
+    "loginAssert": "ERROR: The password you entered for the username testUserName is incorrect. Lost your password?",
+    "firstName": "Lakshay",
+    "lastName": "Sharma",
+    "age": 35,
+    "emailAddress": "Lakshay@Gmail.com",
+    "address": {
+      "streetAddress": "Shalimar Bagh",
+      "city": "Delhi",
+      "postCode": "110088",
+      "state": "Delhi",
+      "country": "India",
+      "county": "Delhi"
+    },
+    "phoneNumber": {
+      "home": "012345678",
+      "mob": "0987654321"
+    }
+  }
+]

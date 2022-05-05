@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/main/resources/features",
         glue= {
-                "com/selenium/training/app/example/stepDefinitions",
-                "com/selenium/training/app/login/stepDefinitions"
+                //"com/selenium/training/app/example/stepDefinitions",
+                "pageobjectmodel/definitions/definitions"
         }
 )
 public class Runner {
